@@ -4,10 +4,12 @@
   "description": "this is complete MERN Project",
   "main": "backend/server.js",
   "scripts": {
+    "install": "npm install --legacy-peer-deps",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
-    "server": "nodemon index.js --ignore client"
+    "server": "nodemon index.js --ignore client",
+    "build": "npm run build"
   },
   "author": "",
   "license": "ISC",
